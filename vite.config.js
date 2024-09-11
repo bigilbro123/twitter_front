@@ -11,7 +11,7 @@ export default {
     port: 3000,
     proxy: {
       '/api': {
-        target: 'https://twitter-clone-backend-v3rv.onrender.com', // Replace with your API server
+        target: ' https://twitter-clone-backend-v3rv.onrender.com', // Replace with your API server
         changeOrigin: true,
         secure: false,
       },
